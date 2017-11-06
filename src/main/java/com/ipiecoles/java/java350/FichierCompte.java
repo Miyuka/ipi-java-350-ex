@@ -49,4 +49,20 @@ public class FichierCompte {
             System.out.println(nomDuFichier + " : Erreur en cours d'écriture ");
         }
     }
+
+    public String getNomDuFichier() {
+        return nomDuFichier;
+    }
+
+    public ObjectOutputStream getfWo() {
+        return fWo;
+    }
+
+    public ObjectInputStream getfRo() {
+        return fRo;
+    }
+
+    public char getMode() {
+        return mode;
+    }
 }
